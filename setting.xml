@@ -1,0 +1,12 @@
+<!-- 一般情况 maven 的通用 settings.xml 在 .m2 文件夹下, 项目内 settings.xml 也可以进行设置，优先级更高 -->
+<settings>
+    <!-- omitted xml -->
+    <!-- 请妥善保管好您的配置，不要随意分享给他人 -->
+    <servers>
+        <server>
+            <id>g-fptq2613-ruoyi-ruoyi</id>
+            <username>ruoyi-1715664355797</username>
+            <password>990ba4de10288642f0821ac84bbab3d12cd19f2e</password>
+        </server>
+    </servers>
+</settings>
