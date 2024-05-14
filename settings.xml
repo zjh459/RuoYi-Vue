@@ -9,4 +9,13 @@
             <password>990ba4de10288642f0821ac84bbab3d12cd19f2e</password>
         </server>
     </servers>
+    <mirrors>
+        <mirror>
+            <id>nexus-tencentyun</id>
+            <!-- 此配置避免了本仓库制品的拉取流量被切换到腾讯云镜像源，保证您在使用镜像加速的同时可以从本仓库拉取制品 -->
+            <mirrorOf>!g-fptq2613-ruoyi-ruoyi</mirrorOf>
+            <name>Nexus tencentyun</name>
+            <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+        </mirror>
+    </mirrors>
 </settings>
