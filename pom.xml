@@ -224,5 +224,13 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
+    <!-- omitted xml -->
+    <distributionManagement>
+        <repository>
+            <!--必须与 settings.xml 的 id 一致-->
+            <id>g-fptq2613-ruoyi-ruoyi</id>
+            <name>ruoyi</name>
+            <url>https://g-fptq2613-maven.pkg.coding.net/repository/ruoyi/ruoyi/</url>
+        </repository>
+    </distributionManagement>
 </project>
